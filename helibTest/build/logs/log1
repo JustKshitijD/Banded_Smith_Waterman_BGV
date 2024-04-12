@@ -1,0 +1,136 @@
+Please set arguments to all 8 variables:
+plaintext modulus (prime number):
+257
+order of cyclotomic ring:
+113242
+min bitsize of the ciphertext modulus in ciphertext:
+3000
+type of circuit(B,T,U):
+U
+Initialising context object...
+p: 257
+m: 113242
+Q size: 3054.55
+Q*P size: 4073.29
+Security: 31.6242
+Number of slots: 20
+m = 113242, p = 257, phi(m) = 55200
+  ord(p) = 2760
+  normBnd = 1.62034
+  polyNormBnd = 4.42842
+  factors = [2 41 1381]
+  generator 783 has order (== Z_m^*) of 20
+  T = [ 1 783 46879 15849 66389 4509 20045 67839 7439 49395 60763 15789 19409 22819 88283 47969 76625 92357 67135 22417 ]
+
+Creating secret key...
+Generating key-switching matrices...
+All masks are created
+Creating comparison polynomial
+Number of baby steps for comparison: 8
+Number of baby steps for min/max: 8
+Number of giant steps for comparison: 8
+Number of giant steps for min/max: 8
+Comparison polynomial is created
+Initialized arrays!
+max_s_ctxt: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+j: 2
+ctxt_cmp_result:  {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+H1[2] = {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[3],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+j: 3
+ctxt_cmp_result:  {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+H1[3] = {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+F[0]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+Time for score_initialization: 1987157117
+qlen_ptxt.size(): 20
+myband_ptxt: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[2],[2],[84],[84],[84],[84],[84],[84],[84],[84],[84],[84],[84],[84],[84],[84],[84],[84],[84],[84]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+w: 2
+Time for band finding: 133330693
+i: 0
+head: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}temp_ptxt: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[3],[3],[85],[85],[85],[85],[85],[85],[85],[85],[85],[85],[85],[85],[85],[85],[85],[85],[85],[85]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+tail: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[3],[3],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+t[0]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[3],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+q[0]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[24],[20],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+H1[0]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[14],[12],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+ctxt_cmp_result {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+hh{"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[24],[20],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+h1{"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[24],[20],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+t[0]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[3],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+q[1]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[3],[3],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[11],[11],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+H1[1]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[24],[20],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+ctxt_cmp_result {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+hh{"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[11],[11],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+h1{"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[11],[11],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+t[0]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[3],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+q[2]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[10],[6],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+H1[2]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[11],[11],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+ctxt_cmp_result {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+hh{"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[10],[6],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+h1{"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[10],[6],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+i: 1
+head: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}temp_ptxt: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[4],[4],[85],[85],[85],[85],[85],[85],[85],[85],[85],[85],[85],[85],[85],[85],[85],[85],[85],[85]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+tail: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[3],[3],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+t[1]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+q[0]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[17],[17],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+H1[0]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[17],[15],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+ctxt_cmp_result {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+hh{"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[17],[17],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+h1{"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[17],[17],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+t[1]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+q[1]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[3],[3],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[27],[23],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+H1[1]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[17],[17],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+ctxt_cmp_result {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+hh{"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[27],[23],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+h1{"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[27],[23],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+t[1]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+q[2]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[14],[14],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+H1[2]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[27],[23],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+ctxt_cmp_result {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+hh{"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[14],[14],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+h1{"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[14],[14],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+i: 2
+head: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}temp_ptxt: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[5],[85],[85],[85],[85],[85],[85],[85],[85],[85],[85],[85],[85],[85],[85],[85],[85],[85],[85]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+tail: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[3],[3],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+t[2]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[3],[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+q[0]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[20],[18],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+H1[0]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[20],[18],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+ctxt_cmp_result {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+hh{"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[20],[18],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+h1{"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[20],[18],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+t[2]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[3],[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+q[1]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[3],[3],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[22],[20],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+H1[1]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[20],[18],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+ctxt_cmp_result {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+hh{"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[22],[20],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+h1{"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[22],[20],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+t[2]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[3],[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+q[2]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[30],[28],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+H1[2]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[22],[20],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+ctxt_cmp_result {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+hh{"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[30],[28],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+h1{"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[30],[28],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+i: 3
+head: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[1],[1],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}temp_ptxt: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[6],[6],[85],[85],[85],[85],[85],[85],[85],[85],[85],[85],[85],[85],[85],[85],[85],[85],[85],[85]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+tail: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[3],[3],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+t[3]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+q[1]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[3],[3],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[23],[21],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+H1[1]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+ctxt_cmp_result {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+hh{"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[23],[21],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+h1{"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[23],[21],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+t[3]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+q[2]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[27],[25],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+H1[2]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[23],[21],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+ctxt_cmp_result {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+hh{"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[27],[25],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+h1{"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[27],[25],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}

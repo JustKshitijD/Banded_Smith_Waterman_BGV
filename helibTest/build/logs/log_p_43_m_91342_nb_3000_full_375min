@@ -1,0 +1,330 @@
+Please set arguments to all 8 variables:
+plaintext modulus (prime number):
+order of cyclotomic ring:
+min bitsize of the ciphertext modulus in ciphertext:
+type of circuit(B,T,U):
+p: 43
+m: 91342
+Q size: 3054.67
+Q*P size: 4073.83
+Security: 22.2123
+Number of slots: 12
+m = 91342, p = 43, phi(m) = 45144
+  ord(p) = 3762
+  normBnd = 1.62102
+  polyNormBnd = 5.71801
+  factors = [2 109 419]
+  generator 11 has order (!= Z_m^*) of 6
+  generator 26815 has order (== Z_m^*) of 2
+  T = [ 1 26815 11 20939 121 47645 1331 67385 14641 10499 69709 24147 ]
+
+Creating secret key...
+Generating key-switching matrices...
+All masks are created
+Creating comparison polynomial
+Number of baby steps for comparison: 4
+Number of baby steps for min/max: 4
+Number of giant steps for comparison: 4
+Number of giant steps for min/max: 4
+Comparison polynomial is created
+Initialized arrays!
+max_s_ctxt: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+F[0]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+Time for score_initialization: 310508143
+qlen_ptxt.size(): 12
+myband_ptxt: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[2],[2],[30],[30],[30],[30],[30],[30],[30],[30],[30],[30]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+w: 2
+Time for band finding: 116817481
+######################################
+i: 0
+head: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[13],[13],[13],[13],[13],[13],[13],[13],[13],[13]]},"serializationVersion":"0.0.1","type":"Ptxt"}temp_ptxt: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[3],[3],[31],[31],[31],[31],[31],[31],[31],[31],[31],[31]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+tail: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[3],[3],[31],[31],[31],[31],[31],[31],[31],[31],[31],[31]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+-------------------------
+j: 0
+t[0]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[3],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+q[0]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+old H1[0]: 
+{"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+c_ambig_1: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+c_match: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[1],[0],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M_temp_1: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M_temp_2: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+new M_temp_2: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M_temp_3: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+new H1[0]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+h=max(M,e): {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+h1=max(M,e,f): {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+largest score in row 0 so far is m: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+largest score in row 0 so far is at mj: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[42],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+F[j]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+e: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+-------------------------
+j: 1
+t[0]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[3],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+q[1]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[3],[3],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+old H1[1]: 
+{"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+c_ambig_1: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+c_match: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M_temp_1: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M_temp_2: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+new M_temp_2: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M_temp_3: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+new H1[1]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+h=max(M,e): {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+h1=max(M,e,f): {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+largest score in row 0 so far is m: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+largest score in row 0 so far is at mj: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[1],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+F[j]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+e: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+-------------------------
+j: 2
+t[0]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[3],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+q[2]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+old H1[2]: 
+{"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+c_ambig_1: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+c_match: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[1],[0],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M_temp_1: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M_temp_2: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+new M_temp_2: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M_temp_3: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+new H1[2]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+h=max(M,e): {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+h1=max(M,e,f): {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+largest score in row 0 so far is m: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+largest score in row 0 so far is at mj: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[1],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+F[j]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+e: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+gscore calculate............
+gscore: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+max_ie: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+gscore calculate end............
+Maxscore calculate............
+original m: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+original max_sc: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+max(m,max_sc): {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+i: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+mj: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[1],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+|i-mj|: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[1],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+max_off: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[1],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+Maxscore calculate end............
+Time for DP iteration 0 is: 6898193466
+######################################
+i: 1
+head: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[26],[26],[26],[26],[26],[26],[26],[26],[26],[26]]},"serializationVersion":"0.0.1","type":"Ptxt"}temp_ptxt: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[4],[4],[31],[31],[31],[31],[31],[31],[31],[31],[31],[31]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+tail: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[3],[3],[31],[31],[31],[31],[31],[31],[31],[31],[31],[31]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+-------------------------
+j: 0
+t[1]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+q[0]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+old H1[0]: 
+{"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+c_ambig_1: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+c_match: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M_temp_1: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M_temp_2: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+new M_temp_2: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M_temp_3: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+new H1[0]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+h=max(M,e): {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+h1=max(M,e,f): {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+largest score in row 1 so far is m: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+largest score in row 1 so far is at mj: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[42],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+F[j]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+e: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+-------------------------
+j: 1
+t[1]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+q[1]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[3],[3],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+old H1[1]: 
+{"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+c_ambig_1: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+c_match: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M_temp_1: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M_temp_2: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[10],[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+new M_temp_2: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M_temp_3: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+new H1[1]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+h=max(M,e): {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+h1=max(M,e,f): {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+largest score in row 1 so far is m: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[2],[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+largest score in row 1 so far is at mj: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[1],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+F[j]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+e: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+-------------------------
+j: 2
+t[1]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+q[2]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+old H1[2]: 
+{"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+c_ambig_1: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+c_match: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M_temp_1: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M_temp_2: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[10],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+new M_temp_2: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M_temp_3: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+new H1[2]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+h=max(M,e): {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+h1=max(M,e,f): {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+largest score in row 1 so far is m: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[2],[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+largest score in row 1 so far is at mj: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[1],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+F[j]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+e: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+gscore calculate............
+gscore: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+max_ie: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+gscore calculate end............
+Maxscore calculate............
+original m: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[2],[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+original max_sc: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+max(m,max_sc): {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+i: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[1],[1],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+mj: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[1],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+|i-mj|: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+max_off: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[1],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+Maxscore calculate end............
+Time for DP iteration 1 is: 6809913221
+######################################
+i: 2
+head: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[9],[9],[9],[9],[9],[9],[9],[9],[9],[9]]},"serializationVersion":"0.0.1","type":"Ptxt"}temp_ptxt: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[5],[31],[31],[31],[31],[31],[31],[31],[31],[31],[31]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+tail: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[3],[3],[31],[31],[31],[31],[31],[31],[31],[31],[31],[31]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+-------------------------
+j: 0
+t[2]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[3],[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+q[0]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+old H1[0]: 
+{"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+c_ambig_1: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+c_match: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M_temp_1: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M_temp_2: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+new M_temp_2: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M_temp_3: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+new H1[0]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+h=max(M,e): {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+h1=max(M,e,f): {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+largest score in row 2 so far is m: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+largest score in row 2 so far is at mj: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[42],[42],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+F[j]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+e: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+-------------------------
+j: 1
+t[2]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[3],[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+q[1]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[3],[3],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+old H1[1]: 
+{"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+c_ambig_1: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+c_match: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[1],[0],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M_temp_1: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M_temp_2: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[10],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+new M_temp_2: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M_temp_3: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+new H1[1]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+h=max(M,e): {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+h1=max(M,e,f): {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+largest score in row 2 so far is m: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+largest score in row 2 so far is at mj: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[1],[1],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+F[j]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+e: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+-------------------------
+j: 2
+t[2]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[3],[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+q[2]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+old H1[2]: 
+{"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+c_ambig_1: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+c_match: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M_temp_1: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M_temp_2: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[7],[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+new M_temp_2: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M_temp_3: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+new H1[2]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+h=max(M,e): {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+h1=max(M,e,f): {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+largest score in row 2 so far is m: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+largest score in row 2 so far is at mj: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[1],[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+F[j]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+e: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+gscore calculate............
+gscore: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+max_ie: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+gscore calculate end............
+Maxscore calculate............
+original m: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+original max_sc: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+max(m,max_sc): {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+i: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[2],[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+mj: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[1],[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+|i-mj|: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+max_off: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[1],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+Maxscore calculate end............
+Time for DP iteration 2 is: 5247101231
+######################################
+i: 3
+head: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[1],[1],[22],[22],[22],[22],[22],[22],[22],[22],[22],[22]]},"serializationVersion":"0.0.1","type":"Ptxt"}temp_ptxt: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[6],[6],[31],[31],[31],[31],[31],[31],[31],[31],[31],[31]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+tail: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[3],[3],[31],[31],[31],[31],[31],[31],[31],[31],[31],[31]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+-------------------------
+j: 1
+t[3]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+q[1]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[3],[3],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+old H1[1]: 
+{"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+c_ambig_1: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+c_match: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M_temp_1: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M_temp_2: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+new M_temp_2: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M_temp_3: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+new H1[1]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+h=max(M,e): {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+h1=max(M,e,f): {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+largest score in row 3 so far is m: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+largest score in row 3 so far is at mj: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[42],[42],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+F[j]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+e: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+-------------------------
+j: 2
+t[3]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+q[2]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+old H1[2]: 
+{"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+c_ambig_1: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+c_match: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[1],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1],[1]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M_temp_1: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M_temp_2: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[10],[7],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+new M_temp_2: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M_temp_3: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+M: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[10],[7],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+new H1[2]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+h=max(M,e): {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[10],[7],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+h1=max(M,e,f): {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[10],[7],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+largest score in row 3 so far is m: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[10],[7],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+largest score in row 3 so far is at mj: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[2],[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+F[j]: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+e: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+gscore calculate............
+gscore: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[10],[7],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+max_ie: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[10],[7],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+gscore calculate end............
+Maxscore calculate............
+original m: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[10],[7],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+original max_sc: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[5],[5],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+max(m,max_sc): {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[10],[7],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+i: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[3],[3],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+mj: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[2],[2],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+|i-mj|: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+max_off: {"HElibVersion":"2.2.0","content":{"scheme":"BGV","slots":[[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]},"serializationVersion":"0.0.1","type":"Ptxt"}
+Maxscore calculate end............
+Time for DP iteration 3 is: 2935455555
+Time for DP iterations: 21899160436
